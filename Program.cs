@@ -33,7 +33,7 @@ namespace Secao6Listas {
                 double percent = double.Parse(Console.ReadLine());
                 emp.increaseSalary(percent);
             }
-
+            //Imprime a lista de empregados
             Console.WriteLine();
             Console.WriteLine("Updated list of employees:");
             foreach (Employee obj in employees) {
